@@ -1,8 +1,6 @@
 import cv2
 import os
 
-from face_detection import eye_cascade
-
 output_folder = './data/at/james'
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
